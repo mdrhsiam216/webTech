@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+#formBody {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: rgba(134, 134, 134, 0.279);
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(111, 111, 111, 0.1);
+}
+
+.up {
+    margin-bottom: 20px;
+}
+
+.denote {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.donation {
+    margin-bottom: 10px;
+}
+
+.header {
+    font-size: 24px;
+    color: red;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+.esteric {
+    color: red;
+    margin-left: 3px;
+}
+
+.container {
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+}
+
+label {
+    width: 150px;
+    text-align: right;
+    padding-right: 15px;
+    color: #333;
+}
+
+input, select {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    max-width: 400px;
+}
+
+input:focus, select:focus {
+    outline: none;
+    border-color: #4a90e2;
+}
+
+select {
+    background-color: white;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    margin: 0;
+}
+
+#donation {
+    font-weight: bold;
+    color: #333;
+}
+
+.donation-amount .radio-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    flex: 1;
+}
+.donation-amount p{
+    font-size: 10px;
+    color: rgba(0, 0, 0, 0.511);
+}
+
+.radio-option {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.other-amount {
+    width: 100px;
+    margin-left: 10px;
+}
+
+.radio-option input[type="radio"] {
+    margin: 0;
+    width: auto;
+}
+
+.radio-option label {
+    width: auto;
+    text-align: left;
+    padding-right: 0;
+}
+
